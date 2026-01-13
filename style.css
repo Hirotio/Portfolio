@@ -1,44 +1,95 @@
+:root {
+  --primary: #1f3a5f;
+  --text: #1a1a1a;
+  --muted: #666;
+  --bg-light: #f5f7fa;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   margin: 0;
-  padding: 0;
-  line-height: 1.7;
-  color: #222;
+  color: var(--text);
+  line-height: 1.8;
+  background: #fff;
 }
 
+/* ===== Hero ===== */
 .hero {
-  padding: 60px 20px;
+  padding: 80px 20px 70px;
+  background: var(--bg-light);
   text-align: center;
-  background: #f5f7fa;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 10px;
 }
 
 .subtitle {
-  color: #555;
+  color: var(--muted);
+  font-size: 1.05rem;
 }
 
+/* ===== Layout ===== */
 section {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
+  max-width: 960px;
+  margin: 80px auto;
+  padding: 0 24px;
 }
 
 h2 {
-  border-bottom: 2px solid #eee;
-  padding-bottom: 6px;
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  color: var(--primary);
+  border-left: 4px solid var(--primary);
+  padding-left: 12px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+/* ===== Experience Cards ===== */
+.card {
+  background: #fff;
+  padding: 28px 32px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  margin-bottom: 28px;
 }
 
 .period {
-  font-size: 0.9em;
-  color: #666;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 12px;
 }
 
+/* ===== Case Studies ===== */
 .case {
-  margin-bottom: 20px;
+  border-left: 3px solid var(--primary);
+  padding-left: 18px;
+  margin-bottom: 24px;
 }
 
+/* ===== Lists ===== */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ===== Footer ===== */
 footer {
+  background: var(--bg-light);
+  padding: 40px 20px;
   text-align: center;
-  padding: 30px;
-  background: #fafafa;
-  font-size: 0.9em;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--primary);
+  text-decoration: none;
+  margin: 0 8px;
 }
