@@ -1,0 +1,44 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  color: #222;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+  background: #f5f7fa;
+}
+
+.subtitle {
+  color: #555;
+}
+
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 6px;
+}
+
+.period {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.case {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #fafafa;
+  font-size: 0.9em;
+}
